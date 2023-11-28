@@ -84,7 +84,7 @@ const Homepage = () => {
       </div>
       <table className="table-auto min-w-full bg-white border border-gray-300">
         <thead>
-          <tr className="bg-gray-100 text-left">
+          <tr className="bg-yellow-400 text-left">
             <th className="py-2 px-4">Image</th>
             <th className="py-2 px-4">Name</th>
             <th className="py-2 px-4">Symbol</th>
@@ -98,7 +98,7 @@ const Homepage = () => {
         <tbody>
           {currentCoins.map((item) => (
             <DisplayCard
-              key={item.id} // Use a unique identifier for the key
+              key={item.id} 
               coinData={item}
               currencySymbol={getCurrencySymbol(selectedCurrency)}
               openModal={openModal}

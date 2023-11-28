@@ -15,7 +15,7 @@ const DisplayCard = ({ coinData, currencySymbol }) => {
   return (
     <>
       <tr
-        className="border-b border-gray-200 hover:bg-gray-100"
+        className="border-b border-gray-200 hover:bg-blue-500 bg-gray-900 text-white"
         onClick={openModal}
         style={{ cursor: "pointer" }}
       >
